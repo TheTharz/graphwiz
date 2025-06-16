@@ -1,5 +1,7 @@
 # 📊 Graph Algorithm Visualizer
 
+[![Deploy to GitHub Pages](https://github.com/TheTharz/graphwiz/actions/workflows/main.yml/badge.svg)](https://github.com/TheTharz/graphwiz/actions/workflows/main.yml)
+
 An interactive web application that allows you to **input graph data in CSV format** and **visualize graph algorithms** like **Kruskal's Minimum Spanning Tree (MST)**. Built with simple HTML, CSS, and JavaScript — no external frameworks — and designed to be modular and scalable.
 
 ## 🧠 Features
