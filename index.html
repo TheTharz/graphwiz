@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graph Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Graph Algorithm Visualizer</h1>
+
+      <textarea
+        id="csvInput"
+        rows="6"
+        placeholder="Enter CSV: A,B,3"
+      ></textarea>
+
+      <div class="controls">
+        <select id="algoSelector">
+          <option value="kruskal">Kruskal's Algorithm</option>
+          <!-- Add more algorithms later -->
+        </select>
+        <button id="runBtn">Run</button>
+      </div>
+
+      <canvas id="graphCanvas" width="800" height="500"></canvas>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
